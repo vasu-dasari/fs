@@ -21,7 +21,6 @@ defmodule FS.Mixfile do
    end
 
   defp deps do
-    [{:ex_doc, "~> 0.11", only: :dev},
-     {:mix_rebar3, "~> 0.1", runtime: false}]
+    [{:ex_doc, "~> 0.11", only: :dev}]
   end
 end
